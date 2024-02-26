@@ -1,7 +1,5 @@
 # Niral
 
-A new Flutter project.
+An interactive mental therapy app for trauma survivors
 
-## Getting Started
-
-FlutterFlow projects are built to run on the Flutter _stable_ release.
+By Rakhul, Shanthosh, Prajein & Dinesh
