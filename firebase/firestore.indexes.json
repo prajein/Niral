@@ -1,0 +1,46 @@
+{
+  "indexes": [
+    {
+      "collectionGroup": "GroupChat",
+      "queryScope": "COLLECTION",
+      "fields": [
+        {
+          "fieldPath": "fromgrp",
+          "order": "ASCENDING"
+        },
+        {
+          "fieldPath": "timestamp",
+          "order": "DESCENDING"
+        }
+      ]
+    },
+    {
+      "collectionGroup": "Couselling",
+      "queryScope": "COLLECTION",
+      "fields": [
+        {
+          "fieldPath": "user_ref",
+          "order": "ASCENDING"
+        },
+        {
+          "fieldPath": "date_and_time",
+          "order": "DESCENDING"
+        }
+      ]
+    },
+    {
+      "collectionGroup": "Blogs",
+      "queryScope": "COLLECTION",
+      "fields": [
+        {
+          "fieldPath": "Likes",
+          "order": "DESCENDING"
+        },
+        {
+          "fieldPath": "PostedTime",
+          "order": "DESCENDING"
+        }
+      ]
+    }
+  ]
+}
